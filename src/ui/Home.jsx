@@ -17,7 +17,7 @@ function Home() {
       {username === "" ? (
         <CreateUser />
       ) : (
-        <Button to="/munu" type="primary">
+        <Button to="/menu" type="primary">
           Countinue ordering, {username}
         </Button>
       )}
